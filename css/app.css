@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.page-wrapper {
+    height: 100vh;
+}
+
+.page-wrapper .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.page-wrapper .card-container .card {
+    position: relative;
+    max-width: 430px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: aliceblue;
+    min-height: 600px;
+    box-shadow: 11px 13px 29px -13px rgba(0, 0, 0, 0.75);
+
+}
+
+.page-wrapper .card-container .card .card-top {
+    background-image: url('/assets/card-header-bg.png');
+    width: 100%;
+    height: 210px;
+}
+
+.page-wrapper .card-container .card .card-bottom {
+    text-align: center;
+}
+
+.page-wrapper .card-container .card .card-bottom .card-logo {
+    position: absolute;
+    left: 130px;
+    transform: translateX(-50%);
+    top: 210px;
+    transform: translateY(-50%);
+    border: 5px white solid;
+    border-radius: 100%;
+    width: 160px;
+    height: 160px;
+
+}
+
+.page-wrapper .card-container .card .card-bottom .card-name {
+    margin-top: 103px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.page-wrapper .card-container .card .card-bottom .card-location {
+    margin-top: 14px;
+    color: gray;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.page-wrapper .card-container .card .card-bottom .card-descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 127.9%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 25px;
+}
+
+.page-wrapper .card-container .card .card-bottom .card-links {
+    margin-top: 20px;
+    margin-left: 52px;
+    margin-right: 52px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.page-wrapper .card-container .card .card-bottom .card-links .card-link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px pink solid;
+    border-radius: 69px;
+    padding: 8px 14px 8px 33px;
+
+}
+
+.page-wrapper .card-container .card .card-bottom .card-links .card-link .social-ico {
+    position: absolute;
+    left: 18px;
+    top: 8px;
+    transform: translateX(-50%);
+
+}
+
+@media(max-width: 391px) {
+    .page-wrapper .card-container .card {
+        max-width: 390px;
+
+    }
+}
