@@ -29,14 +29,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: aliceblue;
+    background-color: #fff;
     min-height: 600px;
     box-shadow: 11px 13px 29px -13px rgba(0, 0, 0, 0.75);
 
 }
 
 .page-wrapper .card-container .card .card-top {
-    background-image: url('/assets/card-header-bg.png');
+
     width: 100%;
     height: 210px;
 }
